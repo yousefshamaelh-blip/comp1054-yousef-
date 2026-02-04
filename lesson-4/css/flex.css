@@ -15,11 +15,11 @@ body {
 	border: 5px dotted red;
 	background: #FCC;
 	/* STEP 2: set width of #container to 8% of body */
-	
+	width: 80%;
 	/* STEP 3: center the entire layout with auto left and right margins */
-	
+	margin: 0 auto;
 	/* STEP 4a: Set the flex container for the whole page */
-	
+	display: flex;
 	/* STEP 4b: Set the flex-direction to column for the #container */
 	
 }
