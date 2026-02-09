@@ -22,8 +22,9 @@ header {
 	/* STEP 1b: Select a HUE using the Hue Slider */
 	/* STEP 1c: De-Saturate the colour a bit, reduce the Lightness, and make the colour slightly transparent by adjusting the Alpha. */
 	/* STEP 1d: Copy the resulting RGBa value and replace the background-color below */
-	background-color: black;
+	background-color: rgba(133, 34, 133, 0.466);
 	padding: 1% 10%;
+	opacity: 0.5;
 }
 header h1 {
 	text-transform: uppercase;
@@ -37,10 +38,10 @@ main {
 }
 main h2 {
 	/* STEP 2: Set the <h2> inside the <main> to the same transparent purple, but use the HSLa colour syntax, instead */
-
+	color: rgb(0, 0, 0);
 	font-size: 500%;
 	margin: 0;	
-	color: white;
+	color: rgb(158, 84, 204);
 }
 main p {
 	margin-top: 0;
