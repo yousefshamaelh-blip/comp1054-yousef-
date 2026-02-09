@@ -6,3 +6,10 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  font-family: "Libre Baskerville", serif;
+  background-color: #0f0f0f;
+  color: #e6e6e6;
+  line-height: 1.6;
+}
