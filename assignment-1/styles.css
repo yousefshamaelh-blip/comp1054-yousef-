@@ -13,3 +13,11 @@ body {
   color: #e6e6e6;
   line-height: 1.6;
 }
+
+/* Layout */
+header,
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #000000;
+}
