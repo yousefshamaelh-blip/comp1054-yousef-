@@ -66,3 +66,15 @@ blockquote {
   padding-left: 1.5rem;
   margin-bottom: 1.5rem;
 }
+blockquote p {
+  font-style: italic;
+}
+
+/* Footer */
+footer p {
+  font-size: 0.8rem;
+}
+
+footer a {
+  color: #e6e6e6;
+}
