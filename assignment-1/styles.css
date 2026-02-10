@@ -39,3 +39,11 @@ aside {
   background-color: #1a1a1a;
   padding: 1.5rem;
 }
+
+/* Typography */
+h1,
+h2 {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.05em;
+  margin-bottom: 1rem;
+}
