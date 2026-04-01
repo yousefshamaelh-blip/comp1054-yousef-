@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+html {
+    font: 120%/1.2 "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+
+td, th {
+    border-top: 1px solid #9f9f9f;
+    padding: 0.5em ;
+    
+}
+th {
+    background: rgb(255, 255, 255);
+}
+
+tbody th {
+    text-align: left ;
+}
+
+
+tbody tr:nth-child(odd){
+    background-color: rgba(213, 213, 213, 0.25);
+}
+
+
+
