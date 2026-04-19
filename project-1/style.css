@@ -255,3 +255,25 @@ li {
   display: block;
   margin-bottom: 0.5rem;
 }
+
+/* buttons */
+.link-allstyles, .link-guidelines {
+  display: inline-block;
+  background-color: #e67e22;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.link-allstyles:hover, .link-guidelines:hover {
+  background-color: #ffc155;
+  text-decoration: none;
+}
+
+.link-codepen {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #e67e22;
+  font-weight: bold;
+}
