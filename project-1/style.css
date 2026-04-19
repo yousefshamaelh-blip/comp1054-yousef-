@@ -214,3 +214,44 @@ li {
   background-color: #c0392b;
   text-decoration: none;
 }
+
+/* featured styles CSS Grid */
+#styles {
+  background-color: #ecf0f1;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+#styles h2 {
+  display: block;
+  text-align: center;
+}
+
+.features {
+  list-style: none;
+  max-width: 1000px;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.features li {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  transition: transform 0.2s;
+}
+
+.features li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.features li a {
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+}
