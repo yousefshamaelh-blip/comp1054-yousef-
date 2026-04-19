@@ -1,3 +1,13 @@
+/*
+ * Style Stage - riverdale
+ * 
+ * Sources:
+ * - CSS Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+ * - CSS Grid: https://css-tricks.com/snippets/css/complete-guide-grid/
+ * - Google Fonts: https://fonts.google.com/
+ */
+
+
 /* nice font from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@400;600&display=swap');
 
@@ -349,5 +359,13 @@ li {
   
   .features {
     gap: 2rem;
+  }
+}
+
+/* accessibility - Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none;
+    transition: none;
   }
 }
