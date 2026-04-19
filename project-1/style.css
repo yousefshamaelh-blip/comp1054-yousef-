@@ -134,3 +134,35 @@ nav ul li a:hover {
   background-color: #e67e22;
   text-decoration: none;
 }
+
+/* main content*/
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+article {
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #ddd;
+}
+
+/* blockquote styling */
+blockquote {
+  background-color: #fef5e7;
+  border-left: 4px solid #e67e22;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+}
+
+/* lists */
+ul, ol {
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
