@@ -70,3 +70,41 @@ a:hover {
 .skip-link:focus {
   top: 0;
 }
+
+/* header */
+header {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+header h1 {
+  color: white;
+}
+
+header h2 {
+  color: #ecf0f1;
+  border-bottom: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+header p {
+  margin: 1rem 0;
+}
+
+.link-github {
+  display: inline-block;
+  background-color: #e67e22;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.link-github:hover {
+  background-color: #c0392b;
+  text-decoration: none;
+}
